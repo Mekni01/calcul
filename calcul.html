@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcul.css">
+    <script src="calcul.js"></script>
+</head>
+<body>
+        <div class="parent">
+            <input id="display" readonly>
+            <div class="chiffre">
+               <div class="row_1">
+                <button onclick="somme('0')">0</button>
+                <button onclick="somme('1')">1</button>
+                <button onclick="somme('2')">2</button>
+               </div>
+               <div class="row_1">
+                <button onclick="somme('3')">3</button>
+                <button onclick="somme('4')">4</button>
+                <button onclick="somme('5')">5</button>
+               </div>
+               <div class="row_1">
+                <button onclick="somme('6')">6</button>
+                <button onclick="somme('7')">7</button>
+                <button onclick="somme('8')">8</button>
+               </div>
+               <div class="row_2">
+                <button  onclick="somme('9')">9</button>
+                <button   class="row_3" onclick="somme('+')">+</button>
+                <button  class="row_3" onclick="somme('-')">-</button>
+               </div>
+               <div class="row_5">
+                <button  class="row_3" onclick="calcul('=')">=</button>
+                <button  class="row_3" onclick="somme('*')">*</button>
+                <button  class="row_3" onclick="somme('/')">/</button>
+                <button  class="row_8" onclick="clear('c')">C</button>
+               </div>
+               
+               
+            </div>
+
+        </div>
+    
+</body>
+</html>
